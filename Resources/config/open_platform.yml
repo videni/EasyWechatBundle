@@ -1,0 +1,8 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Videni\Bundle\EasyWechatBundle\Controller\ComponentController:
+        tags: ['controller.service_arguments']

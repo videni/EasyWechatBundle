@@ -1,0 +1,5 @@
+videni_open_platform_verify_component_ticket:
+    path: /component/verify
+    methods: [PUT,POST]
+    defaults:
+        _controller: Videni\Bundle\EasyWechatBundle\Controller\ComponentController::verifyTicket
